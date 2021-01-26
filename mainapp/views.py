@@ -5,4 +5,7 @@ def index (request):
 def products (request):
     return render(request, "mainapp/products.html")
 
+def test_context (request):
+    return render (request, "mainapp/context.html')
+
 # Create your views here.
